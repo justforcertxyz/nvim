@@ -3,7 +3,7 @@
 let mapleader =","
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
-Plug 'ap/vim-css-color'
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'frazrepo/vim-rainbow'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
@@ -18,6 +18,7 @@ let g:lightline = {
 filetype plugin on
 
 set rnu
+set termguicolors
 set mouse=a
 set nohlsearch
 set encoding=utf-8
