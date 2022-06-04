@@ -17,8 +17,11 @@ let g:lightline = {
 " Required by nerdcommenter
 filetype plugin on
 
-set rnu
+" Required by colorizer
 set termguicolors
+lua require'colorizer'.setup()
+
+set rnu
 set mouse=a
 set nohlsearch
 set encoding=utf-8
