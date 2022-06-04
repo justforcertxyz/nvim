@@ -21,7 +21,7 @@ filetype plugin on
 set termguicolors
 lua require'colorizer'.setup()
 
-set rnu
+set nu rnu
 set mouse=a
 set nohlsearch
 set encoding=utf-8
